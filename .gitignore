@@ -172,5 +172,3 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
-
-SECRET_KEY = django-insecure-1z(c(p=c#bhdvw=bl=utt7bz&p7sj*4%0hc_d#82$=qt+spz4s
