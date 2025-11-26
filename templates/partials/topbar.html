@@ -1,0 +1,38 @@
+{% load static %}
+<div class="topbar">
+        <div class="container-fluid">
+            <div class="row h-100 align-items-center">
+                <div class="col-auto">
+                    <img src="{% static 'img/python-icon.png' %}" id="logoMarca" alt="">
+                </div>
+                <div class="col text-center">
+                    <div class="btn-group me-2" role="group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Serviços
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Encanador</a></li>
+                            <li><a class="dropdown-item" href="#">Mecânico</a></li>
+                            <li><a class="dropdown-item" href="#">Pintor</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group me-2" role="group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Eventos
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Alugar Espaço</a></li>
+                            <li><a class="dropdown-item" href="#">Encontrar Eventos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="btn-group me-2" role="group">
+                        <button type="button" class="btn btn-primary  w-25">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
